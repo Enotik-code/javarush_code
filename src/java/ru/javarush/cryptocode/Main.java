@@ -1,8 +1,10 @@
 package ru.javarush.cryptocode;
 
+import ru.javarush.cryptocode.consoleui.Dialogue;
+
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("HelloWorld");
+        new Dialogue().start();
     }
 }
